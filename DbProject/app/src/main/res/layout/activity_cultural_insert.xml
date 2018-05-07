@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base"
+    tools:context="com.example.user.dbproject.CulturalInsert">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Croll"
+        android:layout_marginTop="20dp"
+        android:hint="Student Roll Number.."
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cid"
+        android:layout_below="@+id/Croll"
+        android:layout_marginTop="5dp"
+        android:hint="Event_id..."
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Cname"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/Cid"
+        android:hint="name.."
+        />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/culturalInsert"
+       android:layout_alignParentBottom="true"
+       android:text="insert"
+       android:background="@color/colorPrimary"
+       />
+</RelativeLayout>

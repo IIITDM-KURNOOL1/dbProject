@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/base"
+    tools:context="com.example.user.dbproject.SportInsert">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sroll"
+        android:layout_marginTop="20dp"
+        android:hint="Student Roll Number.."
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sid"
+        android:layout_below="@+id/Sroll"
+        android:layout_marginTop="5dp"
+        android:hint="Event_id..."
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Sname"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/Sid"
+        android:hint="name.."
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/insertSports"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:text="insert"
+        />
+
+</RelativeLayout>
